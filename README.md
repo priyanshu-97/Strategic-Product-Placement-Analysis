@@ -266,7 +266,8 @@ sales_tableau_flask_project
 │   └── product_positioning_sales.csv
 │
 ├── docs
-│   └── dataset_description.md
+│   ├── dataset_description.md
+|   ├── Strategic Product Placement Analysis using Tableau-Documentation.pdf
 |
 ├── screenshots
 │   
