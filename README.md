@@ -244,7 +244,7 @@ Total visualizations created: **8**
 
 Watch the complete project explanation here:
 
-👉 **YOUR_VIDEO_LINK**
+https://youtu.be/j0OmR48hSkY
 
 The video explains:
 
