@@ -1,31 +1,34 @@
-# 📊 Strategic Product Placement Analysis using Tableau
+# 📊 Strategic Product Placement Analysis using Tableau & Flask
 
 ![Tableau](https://img.shields.io/badge/Tableau-Data%20Visualization-blue)
+![Python](https://img.shields.io/badge/Python-Flask-yellow)
 ![Dataset](https://img.shields.io/badge/Dataset-Kaggle-orange)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
 # 📌 Project Overview
 
-Retail businesses strategically position products within stores to maximize visibility and increase sales. This project analyzes how **product placement, pricing strategies, promotions, consumer demographics, and store foot traffic** influence product sales performance.
+Retail businesses strategically place products in stores to improve visibility and increase sales.
+This project analyzes how **product positioning, pricing strategies, promotions, consumer demographics, and store foot traffic** affect product sales performance.
 
-Using **Tableau dashboards and visualizations**, the project identifies patterns that help businesses optimize product placement strategies and improve retail decision-making.
+The project uses **Tableau for data visualization** and **Flask for web integration**, allowing the dashboard and story to be embedded inside a web application.
+
+The goal is to help businesses understand the **impact of product placement strategies** and make better data-driven decisions.
 
 ---
 
 # 🎯 Problem Statement
 
-Retail companies often struggle to understand how product positioning and promotional strategies influence sales performance. Without clear insights, businesses may miss opportunities to improve store layouts and increase revenue.
+Retail companies often struggle to determine how product placement and promotional strategies influence customer purchasing behavior. Without clear insights, businesses may fail to optimize store layouts and product visibility.
 
-This project aims to analyze product placement data and identify the key factors affecting sales performance using **interactive data visualizations**.
+This project analyzes product positioning data to identify the key factors affecting sales performance using **interactive dashboards and data visualization techniques**.
 
 ---
 
 # 📂 Dataset Information
 
-Dataset Source:
+Dataset Source
 **Kaggle – Impact of Product Positioning on Sales**
 
 The dataset includes information about product placement, pricing strategies, promotions, customer demographics, and sales performance.
@@ -38,118 +41,187 @@ The dataset includes information about product placement, pricing strategies, pr
 | Product Position      | Placement of the product (Endcap, Aisle, Shelf)  |
 | Price                 | Selling price of the product                     |
 | Competitor Price      | Price offered by competitors                     |
-| Promotion             | Indicates whether promotions are applied         |
+| Promotion             | Indicates if promotional offers are available    |
 | Foot Traffic          | Number of customers passing the product location |
-| Consumer Demographics | Target customer segment                          |
+| Consumer Demographics | Target customer group                            |
 | Product Category      | Category of the product                          |
-| Seasonal              | Indicates whether the product is seasonal        |
-| Sales Volume          | Total units sold                                 |
+| Seasonal              | Indicates seasonal products                      |
+| Sales Volume          | Quantity of products sold                        |
 
 ---
 
 # 🛠 Tools & Technologies
 
-| Tool               | Purpose                                   |
-| ------------------ | ----------------------------------------- |
-| Tableau Public     | Data visualization and dashboard creation |
-| CSV Dataset        | Data source                               |
-| GitHub             | Project version control                   |
-| Data Visualization | Analytical insights                       |
+| Tool           | Purpose            |
+| -------------- | ------------------ |
+| Tableau Public | Data Visualization |
+| Python Flask   | Web Integration    |
+| HTML / CSS     | Web Interface      |
+| Kaggle Dataset | Data Source        |
+| GitHub         | Version Control    |
 
 ---
 
 # 🔄 Project Workflow
 
-1️⃣ Problem Definition
-2️⃣ Data Collection (Kaggle Dataset)
-3️⃣ Data Preparation and Cleaning
-4️⃣ Data Visualization in Tableau
-5️⃣ Interactive Dashboard Creation
-6️⃣ Story Development
-7️⃣ Performance Testing
-8️⃣ Web Integration (Publishing Dashboard)
+1. Problem Definition
+2. Data Collection from Kaggle
+3. Data Preparation and Cleaning
+4. Data Visualization using Tableau
+5. Dashboard Creation
+6. Story Development
+7. Performance Testing
+8. Web Integration using Flask
 
 ---
 
 # 🧹 Data Preparation
 
-The dataset was imported into **Tableau** and prepared for analysis through the following steps:
+The dataset was imported into **Tableau** and prepared for analysis.
 
-* Verified column data types
-* Checked for missing values and inconsistencies
-* Structured fields for analysis
-* Aggregated metrics using Tableau functions
-* Prepared data for visualization and dashboard creation
+Preparation steps included:
+
+* Checking data types
+* Verifying dataset consistency
+* Reviewing column structures
+* Applying Tableau aggregation functions
+* Preparing fields for visualization
 
 ---
 
 # 📈 Data Visualizations
 
-The following visualizations were created to analyze product placement performance:
+The following visualizations were created:
 
-| Visualization                         | Purpose                            |
-| ------------------------------------- | ---------------------------------- |
-| Avg Sales Volume vs Product Category  | Compare category performance       |
-| Competitor Price vs Product Price     | Analyze pricing competitiveness    |
-| Avg Sales by Category & Position      | Evaluate product placement impact  |
-| Consumer Demographics vs Sales Volume | Identify key customer segments     |
-| Product Category vs Price             | Compare pricing patterns           |
-| Avg Sales by Category by Season       | Analyze seasonal impact            |
-| Foot Traffic vs Sales Volume          | Examine customer traffic influence |
-| Promotion Impact on Price & Sales     | Evaluate promotional effectiveness |
+| Visualization                         | Purpose                         |
+| ------------------------------------- | ------------------------------- |
+| Avg Sales Volume vs Product Category  | Category performance comparison |
+| Competitor Price vs Product Price     | Pricing competitiveness         |
+| Avg Sales by Category & Position      | Product placement impact        |
+| Consumer Demographics vs Sales Volume | Customer segment analysis       |
+| Product Category vs Price             | Price comparison                |
+| Avg Sales by Category by Season       | Seasonal impact                 |
+| Foot Traffic vs Sales Volume          | Store traffic influence         |
+| Promotion Impact on Price & Sales     | Promotional strategy analysis   |
 
----
-
-# 📊 Dashboard Preview
-
-Below is the interactive dashboard created using Tableau.
-
-![Dashboard Preview](images/dashboard.png)
+Total Visualizations Created: **8**
 
 ---
 
-# 🌐 Live Tableau Dashboard
+# 📊 Dashboard
 
-View the live interactive dashboard here:
+All visualizations were combined into a **Tableau Dashboard** that provides an interactive overview of the analysis.
+
+Features of the dashboard:
+
+* Interactive filters
+* Comparative visualizations
+* Customer demographic insights
+* Product placement performance
+
+---
+
+# 🌐 Web Application Integration
+
+To make the dashboard accessible via a web interface, a **Flask-based web application** was developed.
+
+The web app allows users to navigate between:
+
+* Home Page
+* About Page
+* Dashboard
+* Story
+* Contact Page
+
+The Tableau dashboard and story are embedded into the website using **iframe integration**.
+
+---
+
+# 💻 Web Application Structure
+
+```text
+sales_tableau_flask_project
+
+│── app.py
+
+│── templates
+│   │── index.html
+│   │── about.html
+│   │── dashboard.html
+│   │── story.html
+│   │── contact.html
+
+│── static
+│   │── css
+│   │   └── style.css
+│   │
+│   │── images
+│       ├── hero.jpg
+│       └── about.jpg
+```
+
+---
+
+# 🚀 Running the Web Application
+
+To run the Flask application locally:
+
+```bash
+pip install flask
+python app.py
+```
+
+Then open:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+# 🌍 Live Tableau Dashboard
+
+View the published dashboard here:
 
 👉 **YOUR_TABLEAU_PUBLIC_LINK**
 
-Example format:
+Example:
 
+```
 https://public.tableau.com/views/ProductPlacementAnalysis/Dashboard1
+```
 
 ---
 
 # 🔍 Key Insights
 
-• Electronics products show the highest average sales performance.
-• College students and families contribute significantly to total sales volume.
-• Products placed in **high-visibility areas such as endcaps and front-of-store locations** generate higher sales.
-• High foot-traffic areas are strongly correlated with increased sales performance.
-• Promotions help maintain stable sales levels across product categories.
+• Electronics products recorded the highest average sales volume.
+• College students and families contribute significantly to total sales.
+• Products placed in **high visibility areas such as endcaps** generate higher sales.
+• Higher foot traffic locations strongly influence product sales performance.
+• Promotional strategies help maintain stable sales across product categories.
 
 ---
 
 # 📖 Tableau Story
 
-A Tableau story was created to present the analysis in a **structured narrative format**, explaining:
+A Tableau Story was created to explain the analysis in a step-by-step format.
+It highlights key insights related to:
 
 * Product category performance
-* Impact of consumer demographics
-* Influence of product positioning
-* Pricing and promotional strategies
-
-This helps stakeholders understand the results step-by-step.
+* Consumer demographics influence
+* Product placement strategies
+* Pricing comparisons
 
 ---
 
 # ⚡ Performance Testing
 
-Performance evaluation was conducted based on:
+Performance testing included the following aspects:
 
 ### Utilization of Filters
 
-Filters implemented in the dashboard:
+Filters used in the dashboard:
 
 * Product Category
 * Consumer Demographics
@@ -157,11 +229,11 @@ Filters implemented in the dashboard:
 * Seasonal
 * Promotion
 
-### Number of Calculated Fields
+### Calculation Fields
 
 Custom calculated fields used: **0**
 
-Analysis relied primarily on Tableau aggregation functions:
+Tableau aggregation functions used:
 
 * AVG(Sales Volume)
 * AVG(Price)
@@ -178,34 +250,32 @@ Watch the complete project explanation here:
 
 👉 **YOUR_VIDEO_LINK**
 
-The video demonstrates:
+The video explains:
 
 * Problem statement
 * Dataset overview
 * Data preparation
-* Visualization walkthrough
-* Dashboard explanation
+* Tableau visualizations
+* Dashboard walkthrough
 * Key insights
 
 ---
 
 # 📁 Repository Structure
 
-```
-strategic-product-placement-analysis
-│
+```text
+sales_tableau_flask_project
+
 ├── data
-│   └── product_positioning_sales.csv
-│
-├── docs
-│   ├── dataset_description.md
-│   └── project_documentation.md
-│
-├── images
-│   └── dashboard.png
+│   └── dataset.csv
 │
 ├── tableau
 │   └── product_placement_analysis.twbx
+│
+├── webapp
+│   ├── app.py
+│   ├── templates
+│   └── static
 │
 └── README.md
 ```
@@ -214,9 +284,9 @@ strategic-product-placement-analysis
 
 # 📌 Conclusion
 
-This project demonstrates how **data visualization techniques can help businesses analyze retail product placement strategies**. By examining product positioning, pricing, promotions, and customer demographics, businesses can make **data-driven decisions to optimize store layouts and improve sales performance**.
+This project demonstrates how **data visualization and web integration can be used together to analyze retail product placement strategies**.
 
-Tableau dashboards provide an effective platform for transforming raw data into actionable insights.
+By combining **Tableau dashboards with a Flask web application**, the project provides an interactive platform for exploring data insights and understanding how product placement affects sales performance.
 
 ---
 
@@ -227,9 +297,3 @@ BTech Computer Science Engineering
 Frontend Developer | Data Visualization Enthusiast
 
 ---
-
-
-## Author
-
-Priyanshu Kumar
-BTech Computer Science Engineering
