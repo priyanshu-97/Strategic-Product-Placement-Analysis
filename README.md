@@ -1,102 +1,233 @@
-# Strategic Product Placement Analysis
+# 📊 Strategic Product Placement Analysis using Tableau
 
-## Project Overview
-
-This project analyzes the **impact of product positioning on sales performance** using data visualization techniques. The objective is to understand how different product placements in a retail store influence customer purchasing behavior and overall sales.
-
-Retail stores often place products in strategic locations such as **endcaps, aisles, and shelves** to attract customers. This project studies how such placement strategies affect product sales along with other factors such as pricing, promotions, consumer demographics, and store foot traffic.
-
----
-
-## Project Objective
-
-The main objective of this project is to analyze how **product placement strategies influence sales volume**. The project also explores how other factors such as price, competitor pricing, promotional activities, and customer demographics affect product performance.
+![Tableau](https://img.shields.io/badge/Tableau-Data%20Visualization-blue)
+![Dataset](https://img.shields.io/badge/Dataset-Kaggle-orange)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## Dataset Source
+# 📌 Project Overview
 
-The dataset used in this project was obtained from Kaggle.
+Retail businesses strategically position products within stores to maximize visibility and increase sales. This project analyzes how **product placement, pricing strategies, promotions, consumer demographics, and store foot traffic** influence product sales performance.
 
-Dataset Link:
-https://www.kaggle.com/datasets/amitvkulkarni/impact-of-product-positioning-on-sales
-
-The dataset contains information related to product positioning, pricing strategies, promotional activities, consumer demographics, and sales performance.
+Using **Tableau dashboards and visualizations**, the project identifies patterns that help businesses optimize product placement strategies and improve retail decision-making.
 
 ---
 
-## Dataset Features
+# 🎯 Problem Statement
 
-| Column Name           | Description                                                  |
-| --------------------- | ------------------------------------------------------------ |
-| Product_ID            | Unique identifier for each product                           |
-| Product_Position      | Placement of the product in the store (Endcap, Aisle, Shelf) |
-| Price                 | Selling price of the product                                 |
-| Competitor_Price      | Competitor's price for a similar product                     |
-| Promotion             | Indicates whether the product has promotional offers         |
-| Foot_Traffic          | Number of customers passing the product location             |
-| Consumer_Demographics | Target audience group                                        |
-| Product_Category      | Category of the product                                      |
-| Seasonal              | Indicates whether the product is seasonal                    |
-| Sales_Volume          | Number of units sold                                         |
+Retail companies often struggle to understand how product positioning and promotional strategies influence sales performance. Without clear insights, businesses may miss opportunities to improve store layouts and increase revenue.
+
+This project aims to analyze product placement data and identify the key factors affecting sales performance using **interactive data visualizations**.
 
 ---
 
-## Project Workflow
+# 📂 Dataset Information
 
-1. Data Collection
-2. Data Understanding
-3. Data Preparation
-4. Data Visualization
-5. Dashboard Creation
-6. Insights and Analysis
+Dataset Source:
+**Kaggle – Impact of Product Positioning on Sales**
+
+The dataset includes information about product placement, pricing strategies, promotions, customer demographics, and sales performance.
+
+### Dataset Attributes
+
+| Column                | Description                                      |
+| --------------------- | ------------------------------------------------ |
+| Product ID            | Unique identifier for each product               |
+| Product Position      | Placement of the product (Endcap, Aisle, Shelf)  |
+| Price                 | Selling price of the product                     |
+| Competitor Price      | Price offered by competitors                     |
+| Promotion             | Indicates whether promotions are applied         |
+| Foot Traffic          | Number of customers passing the product location |
+| Consumer Demographics | Target customer segment                          |
+| Product Category      | Category of the product                          |
+| Seasonal              | Indicates whether the product is seasonal        |
+| Sales Volume          | Total units sold                                 |
 
 ---
 
-## Tools Used
+# 🛠 Tools & Technologies
 
-* Tableau
-* CSV / Excel
-* GitHub
-* Data Visualization Techniques
+| Tool               | Purpose                                   |
+| ------------------ | ----------------------------------------- |
+| Tableau Public     | Data visualization and dashboard creation |
+| CSV Dataset        | Data source                               |
+| GitHub             | Project version control                   |
+| Data Visualization | Analytical insights                       |
 
 ---
 
-## Repository Structure
+# 🔄 Project Workflow
 
+1️⃣ Problem Definition
+2️⃣ Data Collection (Kaggle Dataset)
+3️⃣ Data Preparation and Cleaning
+4️⃣ Data Visualization in Tableau
+5️⃣ Interactive Dashboard Creation
+6️⃣ Story Development
+7️⃣ Performance Testing
+8️⃣ Web Integration (Publishing Dashboard)
+
+---
+
+# 🧹 Data Preparation
+
+The dataset was imported into **Tableau** and prepared for analysis through the following steps:
+
+* Verified column data types
+* Checked for missing values and inconsistencies
+* Structured fields for analysis
+* Aggregated metrics using Tableau functions
+* Prepared data for visualization and dashboard creation
+
+---
+
+# 📈 Data Visualizations
+
+The following visualizations were created to analyze product placement performance:
+
+| Visualization                         | Purpose                            |
+| ------------------------------------- | ---------------------------------- |
+| Avg Sales Volume vs Product Category  | Compare category performance       |
+| Competitor Price vs Product Price     | Analyze pricing competitiveness    |
+| Avg Sales by Category & Position      | Evaluate product placement impact  |
+| Consumer Demographics vs Sales Volume | Identify key customer segments     |
+| Product Category vs Price             | Compare pricing patterns           |
+| Avg Sales by Category by Season       | Analyze seasonal impact            |
+| Foot Traffic vs Sales Volume          | Examine customer traffic influence |
+| Promotion Impact on Price & Sales     | Evaluate promotional effectiveness |
+
+---
+
+# 📊 Dashboard Preview
+
+Below is the interactive dashboard created using Tableau.
+
+![Dashboard Preview](images/dashboard.png)
+
+---
+
+# 🌐 Live Tableau Dashboard
+
+View the live interactive dashboard here:
+
+👉 **YOUR_TABLEAU_PUBLIC_LINK**
+
+Example format:
+
+https://public.tableau.com/views/ProductPlacementAnalysis/Dashboard1
+
+---
+
+# 🔍 Key Insights
+
+• Electronics products show the highest average sales performance.
+• College students and families contribute significantly to total sales volume.
+• Products placed in **high-visibility areas such as endcaps and front-of-store locations** generate higher sales.
+• High foot-traffic areas are strongly correlated with increased sales performance.
+• Promotions help maintain stable sales levels across product categories.
+
+---
+
+# 📖 Tableau Story
+
+A Tableau story was created to present the analysis in a **structured narrative format**, explaining:
+
+* Product category performance
+* Impact of consumer demographics
+* Influence of product positioning
+* Pricing and promotional strategies
+
+This helps stakeholders understand the results step-by-step.
+
+---
+
+# ⚡ Performance Testing
+
+Performance evaluation was conducted based on:
+
+### Utilization of Filters
+
+Filters implemented in the dashboard:
+
+* Product Category
+* Consumer Demographics
+* Product Position
+* Seasonal
+* Promotion
+
+### Number of Calculated Fields
+
+Custom calculated fields used: **0**
+
+Analysis relied primarily on Tableau aggregation functions:
+
+* AVG(Sales Volume)
+* AVG(Price)
+
+### Number of Visualizations
+
+Total visualizations created: **8**
+
+---
+
+# 🎥 Project Demonstration Video
+
+Watch the complete project explanation here:
+
+👉 **YOUR_VIDEO_LINK**
+
+The video demonstrates:
+
+* Problem statement
+* Dataset overview
+* Data preparation
+* Visualization walkthrough
+* Dashboard explanation
+* Key insights
+
+---
+
+# 📁 Repository Structure
+
+```
 strategic-product-placement-analysis
-
-data/
-  product_positioning_sales.csv
-
-docs/
-  dataset_description.md
-
-images/
-
-tableau/
-
-README.md
-
----
-
-## Current Progress
-
-* Dataset collected
-* Dataset understanding completed
-* Dataset documentation created
-* Tableau analysis (in progress)
+│
+├── data
+│   └── product_positioning_sales.csv
+│
+├── docs
+│   ├── dataset_description.md
+│   └── project_documentation.md
+│
+├── images
+│   └── dashboard.png
+│
+├── tableau
+│   └── product_placement_analysis.twbx
+│
+└── README.md
+```
 
 ---
 
-## Future Work
+# 📌 Conclusion
 
-* Data cleaning and preparation
-* Creating visualizations in Tableau
-* Building an interactive dashboard
-* Extracting insights from the analysis
+This project demonstrates how **data visualization techniques can help businesses analyze retail product placement strategies**. By examining product positioning, pricing, promotions, and customer demographics, businesses can make **data-driven decisions to optimize store layouts and improve sales performance**.
+
+Tableau dashboards provide an effective platform for transforming raw data into actionable insights.
 
 ---
+
+# 👨‍💻 Author
+
+**Aarush Pandey**
+BTech Computer Science Engineering
+Frontend Developer | Data Visualization Enthusiast
+
+---
+
 
 ## Author
 
