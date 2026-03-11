@@ -1,0 +1,201 @@
+Product_ID,Product_Position,Price,Competitor_Price,Promotion,Foot_Traffic,Consumer_Demographics,Product_Category,Seasonal,Sales_Volume
+P001,Shelf,15,16,Yes,575,College Students,Health,No,184
+P002,Endcap,24,26,Yes,493,Seniors,Dairy,No,121
+P003,Aisle,13,13,Yes,425,Families,Beverages,Yes,138
+P004,Shelf,15,17,Yes,327,Families,Beverages,No,66
+P005,Shelf,13,15,No,396,College Students,Dairy,Yes,77
+P006,Aisle,23,22,No,447,Young Adults,Dairy,Yes,76
+P007,Aisle,22,22,No,417,Young Adults,Electronics,Yes,58
+P008,Shelf,10,11,Yes,605,Young Adults,Electronics,No,159
+P009,Aisle,12,14,No,237,Seniors,Electronics,Yes,77
+P010,Shelf,14,16,No,458,College Students,Health,No,154
+P011,Shelf,25,23,Yes,313,Families,Snacks,No,50
+P012,Shelf,21,22,Yes,270,Seniors,Dairy,Yes,77
+P013,Aisle,6,5,Yes,258,Seniors,Health,Yes,114
+P014,Aisle,7,9,No,742,College Students,Snacks,Yes,233
+P015,Aisle,9,8,Yes,521,Seniors,Snacks,Yes,142
+P016,Aisle,21,21,Yes,390,College Students,Electronics,Yes,57
+P017,Shelf,23,21,Yes,212,Young Adults,Dairy,No,61
+P018,Aisle,14,15,Yes,674,Young Adults,Electronics,Yes,146
+P019,Aisle,24,26,Yes,615,College Students,Health,No,127
+P020,Shelf,21,19,No,272,Young Adults,Beverages,No,50
+P021,Shelf,19,17,No,360,College Students,Health,No,50
+P022,Aisle,19,20,No,659,Families,Electronics,No,151
+P023,Aisle,6,5,No,363,Young Adults,Dairy,Yes,85
+P024,Endcap,13,14,Yes,460,Young Adults,Snacks,Yes,95
+P025,Shelf,16,18,No,705,College Students,Electronics,No,190
+P026,Shelf,8,7,Yes,424,Seniors,Snacks,Yes,107
+P027,Aisle,24,22,No,773,Young Adults,Electronics,Yes,170
+P028,Aisle,21,22,Yes,691,College Students,Health,Yes,165
+P029,Aisle,11,10,No,557,Young Adults,Electronics,No,146
+P030,Endcap,15,15,Yes,291,Young Adults,Electronics,Yes,96
+P031,Endcap,25,23,Yes,231,Families,Health,No,76
+P032,Aisle,20,19,No,566,Seniors,Snacks,No,182
+P033,Endcap,10,8,Yes,204,Families,Snacks,Yes,72
+P034,Aisle,7,6,No,693,Young Adults,Health,No,124
+P035,Aisle,15,13,No,264,Young Adults,Electronics,No,70
+P036,Aisle,13,15,Yes,532,College Students,Electronics,No,146
+P037,Shelf,24,25,No,431,Families,Electronics,Yes,97
+P038,Shelf,6,5,Yes,283,Young Adults,Snacks,No,50
+P039,Shelf,16,15,No,550,Families,Beverages,Yes,124
+P040,Shelf,21,22,No,400,Seniors,Beverages,No,98
+P041,Shelf,10,12,No,786,Young Adults,Health,No,235
+P042,Aisle,24,26,Yes,492,Families,Snacks,Yes,125
+P043,Aisle,10,10,Yes,721,Families,Dairy,Yes,179
+P044,Endcap,18,17,No,435,Young Adults,Dairy,No,112
+P045,Endcap,23,23,Yes,374,Families,Snacks,No,116
+P046,Aisle,25,23,No,450,Families,Dairy,Yes,85
+P047,Shelf,25,23,No,663,Young Adults,Beverages,No,155
+P048,Endcap,6,8,No,299,College Students,Beverages,Yes,50
+P049,Aisle,12,11,Yes,701,Young Adults,Electronics,Yes,214
+P050,Endcap,17,16,No,472,Seniors,Electronics,No,107
+P051,Shelf,7,8,No,579,Seniors,Beverages,No,95
+P052,Shelf,18,17,Yes,744,Seniors,Health,Yes,221
+P053,Aisle,23,24,Yes,671,College Students,Snacks,No,136
+P054,Aisle,22,24,No,410,Families,Snacks,No,78
+P055,Endcap,8,7,No,765,Families,Electronics,Yes,209
+P056,Aisle,8,8,Yes,321,Young Adults,Dairy,No,75
+P057,Endcap,7,6,No,317,Young Adults,Dairy,No,63
+P058,Endcap,12,10,Yes,662,Seniors,Snacks,No,128
+P059,Endcap,20,19,No,595,Seniors,Electronics,Yes,114
+P060,Shelf,14,13,Yes,790,College Students,Snacks,Yes,181
+P061,Shelf,21,19,No,302,College Students,Beverages,No,89
+P062,Endcap,17,17,Yes,758,Young Adults,Health,Yes,161
+P063,Aisle,8,8,Yes,705,College Students,Electronics,Yes,143
+P064,Aisle,14,13,Yes,580,Families,Dairy,Yes,133
+P065,Shelf,10,10,Yes,288,Young Adults,Snacks,Yes,62
+P066,Endcap,21,22,Yes,614,Young Adults,Electronics,No,166
+P067,Shelf,17,17,Yes,577,College Students,Electronics,No,120
+P068,Shelf,15,16,No,374,College Students,Electronics,Yes,108
+P069,Endcap,6,6,No,298,College Students,Beverages,No,113
+P070,Shelf,22,23,No,509,Seniors,Snacks,Yes,121
+P071,Shelf,19,20,No,609,College Students,Dairy,Yes,148
+P072,Shelf,14,15,No,665,Young Adults,Snacks,No,146
+P073,Endcap,23,24,No,220,Young Adults,Health,Yes,55
+P074,Aisle,7,5,Yes,459,Seniors,Dairy,No,136
+P075,Shelf,24,26,Yes,567,Young Adults,Beverages,Yes,95
+P076,Shelf,16,18,No,765,College Students,Electronics,No,184
+P077,Shelf,15,15,No,742,College Students,Beverages,Yes,136
+P078,Aisle,17,15,Yes,359,Seniors,Health,Yes,50
+P079,Aisle,24,26,Yes,419,Families,Beverages,No,90
+P080,Endcap,7,6,Yes,595,College Students,Electronics,No,101
+P081,Aisle,9,7,Yes,293,College Students,Health,Yes,71
+P082,Shelf,17,16,No,746,Seniors,Snacks,No,236
+P083,Aisle,21,20,No,439,Young Adults,Snacks,Yes,83
+P084,Shelf,18,20,No,338,Families,Beverages,No,108
+P085,Endcap,17,16,Yes,775,Young Adults,Electronics,Yes,169
+P086,Shelf,21,21,Yes,553,College Students,Electronics,Yes,134
+P087,Aisle,9,8,Yes,709,Families,Beverages,No,212
+P088,Shelf,9,10,Yes,215,Families,Beverages,No,55
+P089,Endcap,18,17,Yes,592,Young Adults,Dairy,Yes,144
+P090,Shelf,14,13,Yes,382,Young Adults,Health,Yes,50
+P091,Shelf,10,12,Yes,429,Families,Electronics,Yes,151
+P092,Shelf,5,6,No,730,College Students,Beverages,Yes,222
+P093,Aisle,6,7,Yes,538,College Students,Dairy,Yes,114
+P094,Endcap,10,9,No,709,College Students,Dairy,Yes,133
+P095,Aisle,16,18,Yes,325,College Students,Beverages,Yes,122
+P096,Shelf,15,17,Yes,312,Seniors,Electronics,Yes,50
+P097,Endcap,9,10,No,401,Families,Health,No,74
+P098,Shelf,25,23,Yes,232,Young Adults,Dairy,No,60
+P099,Aisle,15,14,No,366,College Students,Electronics,Yes,53
+P100,Shelf,18,17,Yes,505,Seniors,Snacks,No,85
+P101,Shelf,10,8,No,324,Seniors,Snacks,Yes,103
+P102,Shelf,23,22,No,763,Young Adults,Beverages,No,178
+P103,Aisle,5,5,Yes,484,Young Adults,Snacks,No,110
+P104,Shelf,25,24,Yes,765,College Students,Snacks,No,183
+P105,Aisle,9,7,Yes,663,Families,Snacks,Yes,133
+P106,Aisle,16,17,No,794,College Students,Electronics,Yes,164
+P107,Aisle,20,21,No,301,Families,Health,No,56
+P108,Endcap,20,19,No,256,College Students,Electronics,Yes,79
+P109,Endcap,14,13,No,699,Families,Electronics,No,150
+P110,Endcap,23,21,No,269,Young Adults,Electronics,No,50
+P111,Endcap,10,11,No,672,Seniors,Beverages,No,182
+P112,Aisle,15,16,No,596,Families,Dairy,Yes,161
+P113,Aisle,24,22,No,389,Seniors,Beverages,No,127
+P114,Endcap,15,15,Yes,516,College Students,Electronics,Yes,172
+P115,Shelf,17,16,No,708,College Students,Beverages,Yes,139
+P116,Endcap,8,8,No,543,Families,Dairy,No,130
+P117,Shelf,9,7,Yes,245,Young Adults,Dairy,No,63
+P118,Shelf,17,17,No,501,College Students,Beverages,Yes,123
+P119,Endcap,17,16,Yes,519,Seniors,Beverages,Yes,110
+P120,Endcap,21,21,Yes,477,Young Adults,Dairy,Yes,107
+P121,Shelf,23,22,Yes,781,Seniors,Electronics,No,184
+P122,Endcap,8,7,Yes,716,Seniors,Health,No,131
+P123,Aisle,17,19,Yes,278,Seniors,Electronics,Yes,50
+P124,Endcap,15,15,Yes,585,Seniors,Beverages,No,111
+P125,Aisle,9,10,No,791,Seniors,Snacks,No,164
+P126,Aisle,10,8,Yes,500,Seniors,Snacks,Yes,147
+P127,Aisle,7,7,No,371,Young Adults,Electronics,No,112
+P128,Endcap,11,13,Yes,484,Young Adults,Beverages,No,79
+P129,Aisle,7,7,No,599,Families,Snacks,Yes,125
+P130,Endcap,9,7,No,442,College Students,Electronics,No,96
+P131,Shelf,15,17,Yes,623,Seniors,Beverages,Yes,142
+P132,Shelf,20,20,Yes,257,Young Adults,Beverages,Yes,87
+P133,Endcap,14,13,No,763,Seniors,Snacks,Yes,202
+P134,Aisle,8,10,No,714,Young Adults,Dairy,Yes,209
+P135,Shelf,23,23,Yes,239,College Students,Dairy,No,102
+P136,Aisle,10,8,Yes,681,Families,Health,No,195
+P137,Shelf,13,14,Yes,723,Young Adults,Electronics,Yes,214
+P138,Shelf,17,19,No,260,Families,Snacks,Yes,97
+P139,Shelf,16,16,No,692,Seniors,Snacks,Yes,144
+P140,Shelf,23,22,No,372,Young Adults,Electronics,No,110
+P141,Shelf,15,15,Yes,318,Young Adults,Health,Yes,112
+P142,Shelf,24,23,No,353,Seniors,Health,No,128
+P143,Shelf,20,18,No,216,Young Adults,Snacks,Yes,50
+P144,Aisle,5,7,No,336,College Students,Health,Yes,68
+P145,Shelf,5,5,Yes,752,Young Adults,Electronics,No,154
+P146,Aisle,11,10,No,474,Young Adults,Electronics,Yes,137
+P147,Aisle,14,13,No,334,College Students,Beverages,No,66
+P148,Endcap,18,20,No,392,Young Adults,Electronics,No,82
+P149,Aisle,16,18,Yes,581,Seniors,Snacks,No,160
+P150,Shelf,21,22,No,539,College Students,Electronics,No,165
+P151,Endcap,22,22,No,298,Young Adults,Snacks,Yes,61
+P152,Shelf,9,9,Yes,327,College Students,Beverages,No,105
+P153,Shelf,16,16,Yes,229,College Students,Beverages,Yes,66
+P154,Shelf,22,20,No,632,Families,Beverages,No,189
+P155,Endcap,24,25,No,210,Families,Snacks,Yes,50
+P156,Endcap,25,27,Yes,595,College Students,Health,Yes,100
+P157,Endcap,23,24,Yes,379,Seniors,Snacks,No,50
+P158,Aisle,16,15,Yes,618,Seniors,Electronics,Yes,131
+P159,Endcap,9,7,No,385,Young Adults,Dairy,No,92
+P160,Endcap,13,12,Yes,207,College Students,Health,Yes,50
+P161,Shelf,11,10,No,748,Seniors,Electronics,No,194
+P162,Endcap,18,18,Yes,453,College Students,Snacks,Yes,66
+P163,Endcap,14,13,Yes,736,Seniors,Health,No,234
+P164,Aisle,24,23,No,605,Seniors,Beverages,No,199
+P165,Shelf,8,9,Yes,470,Families,Snacks,No,100
+P166,Shelf,10,10,No,386,College Students,Beverages,No,122
+P167,Shelf,21,21,Yes,425,Seniors,Health,Yes,85
+P168,Shelf,25,24,Yes,289,Seniors,Dairy,Yes,50
+P169,Shelf,7,8,Yes,547,Families,Snacks,Yes,124
+P170,Shelf,21,19,No,275,Young Adults,Snacks,No,53
+P171,Shelf,12,10,Yes,537,Young Adults,Health,Yes,111
+P172,Shelf,24,25,No,661,Families,Health,No,135
+P173,Endcap,15,15,No,767,College Students,Snacks,Yes,141
+P174,Endcap,23,22,Yes,573,Seniors,Dairy,Yes,140
+P175,Shelf,19,19,Yes,247,Families,Beverages,Yes,50
+P176,Endcap,24,23,Yes,754,Young Adults,Dairy,No,206
+P177,Endcap,9,11,Yes,297,Families,Beverages,No,50
+P178,Aisle,16,15,Yes,550,Seniors,Dairy,No,102
+P179,Shelf,9,10,Yes,421,Young Adults,Health,Yes,69
+P180,Shelf,11,12,Yes,529,Seniors,Electronics,Yes,153
+P181,Shelf,24,25,Yes,714,Families,Beverages,Yes,163
+P182,Shelf,18,19,No,787,Families,Snacks,Yes,241
+P183,Aisle,21,19,Yes,441,Young Adults,Health,No,84
+P184,Shelf,8,9,No,241,Families,Electronics,No,78
+P185,Aisle,14,13,Yes,480,Families,Snacks,No,124
+P186,Endcap,18,19,No,528,College Students,Health,No,170
+P187,Aisle,25,27,No,650,Seniors,Snacks,No,125
+P188,Aisle,9,10,No,233,College Students,Health,No,50
+P189,Endcap,16,18,Yes,508,Young Adults,Snacks,Yes,124
+P190,Endcap,17,15,Yes,410,College Students,Snacks,Yes,73
+P191,Endcap,6,5,No,303,Seniors,Electronics,Yes,111
+P192,Endcap,10,8,Yes,744,College Students,Electronics,Yes,185
+P193,Aisle,5,4,No,769,Families,Beverages,Yes,172
+P194,Shelf,7,6,Yes,244,Young Adults,Dairy,Yes,90
+P195,Endcap,12,13,Yes,270,College Students,Electronics,No,50
+P196,Endcap,20,18,No,626,Seniors,Health,Yes,135
+P197,Aisle,13,14,No,210,Seniors,Health,Yes,50
+P198,Endcap,18,20,Yes,726,College Students,Dairy,No,143
+P199,Shelf,15,13,Yes,759,Seniors,Dairy,Yes,182
+P200,Shelf,15,17,No,791,Seniors,Dairy,Yes,203
