@@ -262,11 +262,16 @@ The video explains:
 ```text
 sales_tableau_flask_project
 
-├── data
-│   └── dataset.csv
+├── dataset
+│   └── product_positioning_sales.csv
 │
+├── docs
+│   └── dataset_description.md
+|
+├── screenshots
+│   
 ├── tableau
-│   └── product_placement_analysis.twbx
+│   └── Project book.twb
 │
 ├── webapp
 │   ├── app.py
