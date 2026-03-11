@@ -156,7 +156,7 @@ sales_tableau_flask_project
 │   │   └── style.css
 │   │
 │   │── images
-│       ├── hero.jpg
+│       ├── backgroud.jpg
 │       └── about.jpg
 ```
 
@@ -183,15 +183,7 @@ http://127.0.0.1:5000
 
 View the published dashboard here:
 
-👉 **YOUR_TABLEAU_PUBLIC_LINK**
-
-Example:
-
-```
-https://public.tableau.com/views/ProductPlacementAnalysis/Dashboard1
-```
-
----
+https://public.tableau.com/views/ProjectBook_17732269076800/Productplacementanalysis-dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 # 🔍 Key Insights
 
@@ -204,6 +196,10 @@ https://public.tableau.com/views/ProductPlacementAnalysis/Dashboard1
 ---
 
 # 📖 Tableau Story
+
+View the published dashboard here:
+
+https://public.tableau.com/views/ProjectBook_17732269076800/Productplacementanalysisstory?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 A Tableau Story was created to explain the analysis in a step-by-step format.
 It highlights key insights related to:
@@ -292,8 +288,6 @@ By combining **Tableau dashboards with a Flask web application**, the project pr
 
 # 👨‍💻 Author
 
-**Aarush Pandey**
-BTech Computer Science Engineering
-Frontend Developer | Data Visualization Enthusiast
+**Priyanshu kumar , Team 69**
 
 ---
